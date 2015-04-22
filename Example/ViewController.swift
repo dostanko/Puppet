@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Puppet
+//  Example
 //
 //  Created by Ira on 4/22/15.
 //  Copyright (c) 2015 Ira. All rights reserved.

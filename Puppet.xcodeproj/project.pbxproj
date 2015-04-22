@@ -7,49 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AB983FB1AE833EC009E7985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB983FA1AE833EC009E7985 /* AppDelegate.swift */; };
-		2AB983FD1AE833EC009E7985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB983FC1AE833EC009E7985 /* ViewController.swift */; };
-		2AB984001AE833EC009E7985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB983FE1AE833EC009E7985 /* Main.storyboard */; };
-		2AB984021AE833EC009E7985 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB984011AE833EC009E7985 /* Images.xcassets */; };
-		2AB984051AE833EC009E7985 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB984031AE833EC009E7985 /* LaunchScreen.xib */; };
-		2AB984111AE833EC009E7985 /* PuppetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB984101AE833EC009E7985 /* PuppetTests.swift */; };
+		2AB984411AE8359E009E7985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB984401AE8359E009E7985 /* AppDelegate.swift */; };
+		2AB984431AE8359E009E7985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB984421AE8359E009E7985 /* ViewController.swift */; };
+		2AB984461AE8359E009E7985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB984441AE8359E009E7985 /* Main.storyboard */; };
+		2AB984481AE8359E009E7985 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB984471AE8359E009E7985 /* Images.xcassets */; };
+		2AB9844B1AE8359E009E7985 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB984491AE8359E009E7985 /* LaunchScreen.xib */; };
+		2AB984571AE8359E009E7985 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB984561AE8359E009E7985 /* ExampleTests.swift */; };
+		2AB984681AE835CE009E7985 /* Puppet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB984671AE835CE009E7985 /* Puppet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AB9846E1AE835CE009E7985 /* Puppet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB984631AE835CE009E7985 /* Puppet.framework */; };
+		2AB984771AE835CE009E7985 /* PuppetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB984761AE835CE009E7985 /* PuppetTests.swift */; };
+		2AB9847A1AE835CE009E7985 /* Puppet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB984631AE835CE009E7985 /* Puppet.framework */; };
+		2AB9847B1AE835CE009E7985 /* Puppet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB984631AE835CE009E7985 /* Puppet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2AB9840B1AE833EC009E7985 /* PBXContainerItemProxy */ = {
+		2AB984511AE8359E009E7985 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2AB983ED1AE833EC009E7985 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AB983F41AE833EC009E7985;
+			remoteGlobalIDString = 2AB9843B1AE8359E009E7985;
+			remoteInfo = Example;
+		};
+		2AB9846F1AE835CE009E7985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB983ED1AE833EC009E7985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB984621AE835CE009E7985;
+			remoteInfo = Puppet;
+		};
+		2AB984711AE835CE009E7985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB983ED1AE833EC009E7985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB9843B1AE8359E009E7985;
+			remoteInfo = Example;
+		};
+		2AB984781AE835CE009E7985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB983ED1AE833EC009E7985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB984621AE835CE009E7985;
 			remoteInfo = Puppet;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2AB9847F1AE835CE009E7985 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2AB9847B1AE835CE009E7985 /* Puppet.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		2AB983F51AE833EC009E7985 /* Puppet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puppet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AB983F91AE833EC009E7985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AB983FA1AE833EC009E7985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AB983FC1AE833EC009E7985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2AB983FF1AE833EC009E7985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2AB984011AE833EC009E7985 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2AB984041AE833EC009E7985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2AB9840A1AE833EC009E7985 /* PuppetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuppetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AB9840F1AE833EC009E7985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AB984101AE833EC009E7985 /* PuppetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppetTests.swift; sourceTree = "<group>"; };
+		2AB9843C1AE8359E009E7985 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB9843F1AE8359E009E7985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB984401AE8359E009E7985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AB984421AE8359E009E7985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AB984451AE8359E009E7985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AB984471AE8359E009E7985 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2AB9844A1AE8359E009E7985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2AB984501AE8359E009E7985 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB984551AE8359E009E7985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB984561AE8359E009E7985 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		2AB984631AE835CE009E7985 /* Puppet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Puppet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB984661AE835CE009E7985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB984671AE835CE009E7985 /* Puppet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Puppet.h; sourceTree = "<group>"; };
+		2AB9846D1AE835CE009E7985 /* PuppetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuppetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB984751AE835CE009E7985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB984761AE835CE009E7985 /* PuppetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppetTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AB983F21AE833EC009E7985 /* Frameworks */ = {
+		2AB984391AE8359E009E7985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB9847A1AE835CE009E7985 /* Puppet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB9844D1AE8359E009E7985 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AB984071AE833EC009E7985 /* Frameworks */ = {
+		2AB9845F1AE835CE009E7985 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB9846A1AE835CE009E7985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB9846E1AE835CE009E7985 /* Puppet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +121,10 @@
 		2AB983EC1AE833EC009E7985 = {
 			isa = PBXGroup;
 			children = (
-				2AB983F71AE833EC009E7985 /* Puppet */,
-				2AB9840D1AE833EC009E7985 /* PuppetTests */,
+				2AB9843D1AE8359E009E7985 /* Example */,
+				2AB984531AE8359E009E7985 /* ExampleTests */,
+				2AB984641AE835CE009E7985 /* Puppet */,
+				2AB984731AE835CE009E7985 /* PuppetTests */,
 				2AB983F61AE833EC009E7985 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,60 +132,145 @@
 		2AB983F61AE833EC009E7985 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AB983F51AE833EC009E7985 /* Puppet.app */,
-				2AB9840A1AE833EC009E7985 /* PuppetTests.xctest */,
+				2AB9843C1AE8359E009E7985 /* Example.app */,
+				2AB984501AE8359E009E7985 /* ExampleTests.xctest */,
+				2AB984631AE835CE009E7985 /* Puppet.framework */,
+				2AB9846D1AE835CE009E7985 /* PuppetTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AB983F71AE833EC009E7985 /* Puppet */ = {
+		2AB9843D1AE8359E009E7985 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				2AB983FA1AE833EC009E7985 /* AppDelegate.swift */,
-				2AB983FC1AE833EC009E7985 /* ViewController.swift */,
-				2AB983FE1AE833EC009E7985 /* Main.storyboard */,
-				2AB984011AE833EC009E7985 /* Images.xcassets */,
-				2AB984031AE833EC009E7985 /* LaunchScreen.xib */,
-				2AB983F81AE833EC009E7985 /* Supporting Files */,
+				2AB984401AE8359E009E7985 /* AppDelegate.swift */,
+				2AB984421AE8359E009E7985 /* ViewController.swift */,
+				2AB984441AE8359E009E7985 /* Main.storyboard */,
+				2AB984471AE8359E009E7985 /* Images.xcassets */,
+				2AB984491AE8359E009E7985 /* LaunchScreen.xib */,
+				2AB9843E1AE8359E009E7985 /* Supporting Files */,
 			);
-			path = Puppet;
+			path = Example;
 			sourceTree = "<group>";
 		};
-		2AB983F81AE833EC009E7985 /* Supporting Files */ = {
+		2AB9843E1AE8359E009E7985 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2AB983F91AE833EC009E7985 /* Info.plist */,
+				2AB9843F1AE8359E009E7985 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2AB9840D1AE833EC009E7985 /* PuppetTests */ = {
+		2AB984531AE8359E009E7985 /* ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				2AB984101AE833EC009E7985 /* PuppetTests.swift */,
-				2AB9840E1AE833EC009E7985 /* Supporting Files */,
+				2AB984561AE8359E009E7985 /* ExampleTests.swift */,
+				2AB984541AE8359E009E7985 /* Supporting Files */,
+			);
+			path = ExampleTests;
+			sourceTree = "<group>";
+		};
+		2AB984541AE8359E009E7985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB984551AE8359E009E7985 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AB984641AE835CE009E7985 /* Puppet */ = {
+			isa = PBXGroup;
+			children = (
+				2AB984671AE835CE009E7985 /* Puppet.h */,
+				2AB984651AE835CE009E7985 /* Supporting Files */,
+			);
+			path = Puppet;
+			sourceTree = "<group>";
+		};
+		2AB984651AE835CE009E7985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB984661AE835CE009E7985 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AB984731AE835CE009E7985 /* PuppetTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AB984761AE835CE009E7985 /* PuppetTests.swift */,
+				2AB984741AE835CE009E7985 /* Supporting Files */,
 			);
 			path = PuppetTests;
 			sourceTree = "<group>";
 		};
-		2AB9840E1AE833EC009E7985 /* Supporting Files */ = {
+		2AB984741AE835CE009E7985 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2AB9840F1AE833EC009E7985 /* Info.plist */,
+				2AB984751AE835CE009E7985 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2AB984601AE835CE009E7985 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB984681AE835CE009E7985 /* Puppet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		2AB983F41AE833EC009E7985 /* Puppet */ = {
+		2AB9843B1AE8359E009E7985 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AB984141AE833EC009E7985 /* Build configuration list for PBXNativeTarget "Puppet" */;
+			buildConfigurationList = 2AB984581AE8359E009E7985 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				2AB983F11AE833EC009E7985 /* Sources */,
-				2AB983F21AE833EC009E7985 /* Frameworks */,
-				2AB983F31AE833EC009E7985 /* Resources */,
+				2AB984381AE8359E009E7985 /* Sources */,
+				2AB984391AE8359E009E7985 /* Frameworks */,
+				2AB9843A1AE8359E009E7985 /* Resources */,
+				2AB9847F1AE835CE009E7985 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB984791AE835CE009E7985 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 2AB9843C1AE8359E009E7985 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AB9844F1AE8359E009E7985 /* ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB9845B1AE8359E009E7985 /* Build configuration list for PBXNativeTarget "ExampleTests" */;
+			buildPhases = (
+				2AB9844C1AE8359E009E7985 /* Sources */,
+				2AB9844D1AE8359E009E7985 /* Frameworks */,
+				2AB9844E1AE8359E009E7985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB984521AE8359E009E7985 /* PBXTargetDependency */,
+			);
+			name = ExampleTests;
+			productName = ExampleTests;
+			productReference = 2AB984501AE8359E009E7985 /* ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AB984621AE835CE009E7985 /* Puppet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB9847C1AE835CE009E7985 /* Build configuration list for PBXNativeTarget "Puppet" */;
+			buildPhases = (
+				2AB9845E1AE835CE009E7985 /* Sources */,
+				2AB9845F1AE835CE009E7985 /* Frameworks */,
+				2AB984601AE835CE009E7985 /* Headers */,
+				2AB984611AE835CE009E7985 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,25 +278,26 @@
 			);
 			name = Puppet;
 			productName = Puppet;
-			productReference = 2AB983F51AE833EC009E7985 /* Puppet.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 2AB984631AE835CE009E7985 /* Puppet.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		2AB984091AE833EC009E7985 /* PuppetTests */ = {
+		2AB9846C1AE835CE009E7985 /* PuppetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AB984171AE833EC009E7985 /* Build configuration list for PBXNativeTarget "PuppetTests" */;
+			buildConfigurationList = 2AB984801AE835CE009E7985 /* Build configuration list for PBXNativeTarget "PuppetTests" */;
 			buildPhases = (
-				2AB984061AE833EC009E7985 /* Sources */,
-				2AB984071AE833EC009E7985 /* Frameworks */,
-				2AB984081AE833EC009E7985 /* Resources */,
+				2AB984691AE835CE009E7985 /* Sources */,
+				2AB9846A1AE835CE009E7985 /* Frameworks */,
+				2AB9846B1AE835CE009E7985 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AB9840C1AE833EC009E7985 /* PBXTargetDependency */,
+				2AB984701AE835CE009E7985 /* PBXTargetDependency */,
+				2AB984721AE835CE009E7985 /* PBXTargetDependency */,
 			);
 			name = PuppetTests;
 			productName = PuppetTests;
-			productReference = 2AB9840A1AE833EC009E7985 /* PuppetTests.xctest */;
+			productReference = 2AB9846D1AE835CE009E7985 /* PuppetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -159,12 +309,19 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Ira;
 				TargetAttributes = {
-					2AB983F41AE833EC009E7985 = {
+					2AB9843B1AE8359E009E7985 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					2AB984091AE833EC009E7985 = {
+					2AB9844F1AE8359E009E7985 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 2AB983F41AE833EC009E7985;
+						TestTargetID = 2AB9843B1AE8359E009E7985;
+					};
+					2AB984621AE835CE009E7985 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					2AB9846C1AE835CE009E7985 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 2AB9843B1AE8359E009E7985;
 					};
 				};
 			};
@@ -181,24 +338,40 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AB983F41AE833EC009E7985 /* Puppet */,
-				2AB984091AE833EC009E7985 /* PuppetTests */,
+				2AB9843B1AE8359E009E7985 /* Example */,
+				2AB9844F1AE8359E009E7985 /* ExampleTests */,
+				2AB984621AE835CE009E7985 /* Puppet */,
+				2AB9846C1AE835CE009E7985 /* PuppetTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AB983F31AE833EC009E7985 /* Resources */ = {
+		2AB9843A1AE8359E009E7985 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB984001AE833EC009E7985 /* Main.storyboard in Resources */,
-				2AB984051AE833EC009E7985 /* LaunchScreen.xib in Resources */,
-				2AB984021AE833EC009E7985 /* Images.xcassets in Resources */,
+				2AB984461AE8359E009E7985 /* Main.storyboard in Resources */,
+				2AB9844B1AE8359E009E7985 /* LaunchScreen.xib in Resources */,
+				2AB984481AE8359E009E7985 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AB984081AE833EC009E7985 /* Resources */ = {
+		2AB9844E1AE8359E009E7985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB984611AE835CE009E7985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB9846B1AE835CE009E7985 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +381,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AB983F11AE833EC009E7985 /* Sources */ = {
+		2AB984381AE8359E009E7985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB983FD1AE833EC009E7985 /* ViewController.swift in Sources */,
-				2AB983FB1AE833EC009E7985 /* AppDelegate.swift in Sources */,
+				2AB984431AE8359E009E7985 /* ViewController.swift in Sources */,
+				2AB984411AE8359E009E7985 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AB984061AE833EC009E7985 /* Sources */ = {
+		2AB9844C1AE8359E009E7985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB984111AE833EC009E7985 /* PuppetTests.swift in Sources */,
+				2AB984571AE8359E009E7985 /* ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB9845E1AE835CE009E7985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB984691AE835CE009E7985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB984771AE835CE009E7985 /* PuppetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2AB9840C1AE833EC009E7985 /* PBXTargetDependency */ = {
+		2AB984521AE8359E009E7985 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2AB983F41AE833EC009E7985 /* Puppet */;
-			targetProxy = 2AB9840B1AE833EC009E7985 /* PBXContainerItemProxy */;
+			target = 2AB9843B1AE8359E009E7985 /* Example */;
+			targetProxy = 2AB984511AE8359E009E7985 /* PBXContainerItemProxy */;
+		};
+		2AB984701AE835CE009E7985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB984621AE835CE009E7985 /* Puppet */;
+			targetProxy = 2AB9846F1AE835CE009E7985 /* PBXContainerItemProxy */;
+		};
+		2AB984721AE835CE009E7985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB9843B1AE8359E009E7985 /* Example */;
+			targetProxy = 2AB984711AE835CE009E7985 /* PBXContainerItemProxy */;
+		};
+		2AB984791AE835CE009E7985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB984621AE835CE009E7985 /* Puppet */;
+			targetProxy = 2AB984781AE835CE009E7985 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2AB983FE1AE833EC009E7985 /* Main.storyboard */ = {
+		2AB984441AE8359E009E7985 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2AB983FF1AE833EC009E7985 /* Base */,
+				2AB984451AE8359E009E7985 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2AB984031AE833EC009E7985 /* LaunchScreen.xib */ = {
+		2AB984491AE8359E009E7985 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2AB984041AE833EC009E7985 /* Base */,
+				2AB9844A1AE8359E009E7985 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -338,27 +541,31 @@
 			};
 			name = Release;
 		};
-		2AB984151AE833EC009E7985 /* Debug */ = {
+		2AB984591AE8359E009E7985 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Puppet/Info.plist;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		2AB984161AE833EC009E7985 /* Release */ = {
+		2AB9845A1AE8359E009E7985 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Puppet/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		2AB984181AE833EC009E7985 /* Debug */ = {
+		2AB9845C1AE8359E009E7985 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -370,14 +577,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PuppetTests/Info.plist;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puppet.app/Puppet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Debug;
 		};
-		2AB984191AE833EC009E7985 /* Release */ = {
+		2AB9845D1AE8359E009E7985 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -385,10 +592,82 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				INFOPLIST_FILE = ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+			};
+			name = Release;
+		};
+		2AB9847D1AE835CE009E7985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Puppet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AB9847E1AE835CE009E7985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Puppet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AB984811AE835CE009E7985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = PuppetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puppet.app/Puppet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+			};
+			name = Debug;
+		};
+		2AB984821AE835CE009E7985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PuppetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Release;
 		};
@@ -404,19 +683,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AB984141AE833EC009E7985 /* Build configuration list for PBXNativeTarget "Puppet" */ = {
+		2AB984581AE8359E009E7985 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AB984151AE833EC009E7985 /* Debug */,
-				2AB984161AE833EC009E7985 /* Release */,
+				2AB984591AE8359E009E7985 /* Debug */,
+				2AB9845A1AE8359E009E7985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2AB984171AE833EC009E7985 /* Build configuration list for PBXNativeTarget "PuppetTests" */ = {
+		2AB9845B1AE8359E009E7985 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AB984181AE833EC009E7985 /* Debug */,
-				2AB984191AE833EC009E7985 /* Release */,
+				2AB9845C1AE8359E009E7985 /* Debug */,
+				2AB9845D1AE8359E009E7985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AB9847C1AE835CE009E7985 /* Build configuration list for PBXNativeTarget "Puppet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB9847D1AE835CE009E7985 /* Debug */,
+				2AB9847E1AE835CE009E7985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AB984801AE835CE009E7985 /* Build configuration list for PBXNativeTarget "PuppetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB984811AE835CE009E7985 /* Debug */,
+				2AB984821AE835CE009E7985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
